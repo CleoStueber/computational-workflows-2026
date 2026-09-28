@@ -1,0 +1,93 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# =========================
+# Nextflow
+# =========================
+.nextflow/
+.nextflow.log
+.nextflow.log.*
+work/
+
+# Generated pipeline output
+test_results*/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+
+# =========================
+# Conda
+# =========================
+.conda/
+conda-env/
+
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+
+# =========================
+# JetBrains / PyCharm
+# =========================
+.idea/
+
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+
+# =========================
+# Logs
+# =========================
+*.log
+
+
+# =========================
+# Secrets / environment vars
+# =========================
+.env
+.env.*
+*.pem
+*.key
+
+
+# =========================
+# Large / generated data
+# =========================
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
