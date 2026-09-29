@@ -1,93 +1,33 @@
-# =========================
+# ============================================================
+# GENERAL
+# ============================================================
+
 # macOS
-# =========================
 .DS_Store
-.AppleDouble
-.LSOverride
 
-
-# =========================
-# Nextflow
-# =========================
-.nextflow/
-.nextflow.log
-.nextflow.log.*
-work/
-
-# Generated pipeline output
-test_results*/
-
-# =========================
 # Jupyter
-# =========================
 .ipynb_checkpoints/
 
-
-# =========================
-# Python
-# =========================
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environments
-.venv/
-venv/
-env/
+# Nextflow internal files
+.nextflow/
+.nextflow.log*
+work/
 
 
-# =========================
-# Conda
-# =========================
-.conda/
-conda-env/
+# ============================================================
+# DAY 01
+# ============================================================
 
+# nf-core/differentialabundance output directories
+day_01/test_results*/
+        
 
-# =========================
-# VS Code
-# =========================
-.vscode/
+# ============================================================
+# DAY 02
+# ============================================================
 
-
-# =========================
-# JetBrains / PyCharm
-# =========================
-.idea/
-
-
-# =========================
-# Temporary files
-# =========================
-*.tmp
-*.temp
-*.swp
-*.swo
-*~
-
-
-# =========================
-# Logs
-# =========================
-*.log
-
-
-# =========================
-# Secrets / environment vars
-# =========================
-.env
-.env.*
-*.pem
-*.key
-
-
-# =========================
-# Large / generated data
-# =========================
-*.bam
-*.bai
-*.cram
-*.crai
-*.fastq
-*.fastq.gz
-*.fq
-*.fq.gz
+# nf-core/fetchngs downloaded/generated output
+day_02/fetchngs_results/
+day_02/smallest_runs.csv
+day_02/base_counts.csv
+day_02/conditions_runs_oxy_project.xlsx
