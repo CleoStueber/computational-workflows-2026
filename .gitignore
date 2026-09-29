@@ -27,7 +27,7 @@ day_01/test_results*/
 # ============================================================
 
 # nf-core/fetchngs downloaded/generated output
-day_02/fetchngs_results/
+day_02/fetchngs_out/
 
 # Day 02 local/generated data
 day_02/smallest_runs.csv
