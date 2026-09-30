@@ -29,6 +29,7 @@ day_01/test_results*/
 # nf-core/fetchngs downloaded/generated output
 day_02/fetchngs_out/
 day_02/rnaseq_results*/
+day_02/rnaseq_out_allsamples/
 
 # Day 02 local/generated data
 day_02/smallest_runs.csv
@@ -36,3 +37,8 @@ day_02/base_counts.csv
 day_02/conditions_runs_oxy_project.xlsx
 day_02/Pryce2023.pdf
 day_02/samplesheet_rnaseq.csv
+
+# ============================================================
+# DAY 03
+# ============================================================
+day_03/data/
