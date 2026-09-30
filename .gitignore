@@ -42,7 +42,7 @@ day_02/samplesheet_rnaseq.csv
 # DAY 03
 # ============================================================
 day_03/data/
-day_03/differentialabundance_results*/
+day_03/differentialabundance*/
 day_03/samplesheet.csv
 day_03/venn_overlap_genes.tsv
 day_03/sni_only_genes.tsv
