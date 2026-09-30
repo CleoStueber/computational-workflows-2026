@@ -1,0 +1,4 @@
+differential_min_fold_change: 1.41421356
+differential_max_pval: 0.05
+differential_max_qval: 1.0
+deseq2_shrink_lfc: false
