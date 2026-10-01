@@ -1,37 +1,23 @@
 # ============================================================
 # GENERAL
 # ============================================================
-
-# macOS
 .DS_Store
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Nextflow internal files
 .nextflow/
 .nextflow.log*
 work/
 
-
 # ============================================================
 # DAY 01
 # ============================================================
-
-# nf-core/differentialabundance output directories
 day_01/test_results*/
-
 
 # ============================================================
 # DAY 02
 # ============================================================
-
-# nf-core/fetchngs downloaded/generated output
 day_02/fetchngs_out/
 day_02/rnaseq_results*/
 day_02/rnaseq_out_allsamples/
-
-# Day 02 local/generated data
 day_02/smallest_runs.csv
 day_02/base_counts.csv
 day_02/conditions_runs_oxy_project.xlsx
@@ -47,3 +33,8 @@ day_03/samplesheet.csv
 day_03/venn_overlap_genes.tsv
 day_03/sni_only_genes.tsv
 day_03/sham_only_genes.tsv
+
+# ============================================================
+# DAY 04
+# ============================================================
+day_04/fastqc*/

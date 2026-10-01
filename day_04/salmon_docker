@@ -1,11 +1,18 @@
-FROM debian:bullseye-slim
+# FROM debian:bullseye-slim did not work, outdated
+FROM debian:bookworm-slim
 
-LABEL image.author.name="yourname"
-LABEL image.author.email="yourmail"
+LABEL image.author.name="CleoStueber"
+LABEL image.author.email="cleo-marleen.stueber@student.uni-tuebingen.de"
 
 # Install dependencies
+RUN apt-get update && apt-get install -y curl ca-certificates
 
 # Download and install Salmon
+RUN curl -L https://github.com/COMBINE-lab/salmon/releases/download/v1.5.2/salmon-1.5.2_linux_x86_64.tar.gz \
+    -o /tmp/salmon.tar.gz && \
+    tar -xzf /tmp/salmon.tar.gz -C /opt && \
+    ln -s /opt/salmon-1.5.2_linux_x86_64/bin/salmon /usr/bin/salmon && \
+    rm /tmp/salmon.tar.gz
 
 # Set the PATH environment variable (to /usr/bin)
-
+ENV PATH="/usr/bin:${PATH}"
